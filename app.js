@@ -1,8 +1,5 @@
 const broadCast = new BroadcastChannel('number');
 
-
-
-
 let FireRonaomNumber =()=>{
     broadCast.postMessage({
         number: Math.random() * 100,
